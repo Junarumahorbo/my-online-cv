@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Nama Anda</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <header>
+        <h1>Nama Lengkap Anda</h1>
+        <p>Jabatan atau Fokus Profesional</p>
+        <nav>
+            <a href="#tentang">Tentang</a>
+            <a href="#pengalaman">Pengalaman</a>
+            <a href="#keahlian">Keahlian</a>
+            <a href="#" id="contactBtn">Kontak Saya</a>
+        </nav>
+    </header>
 
+    <main>
+        <section id="tentang" class="fade-in">
+            <h2>Tentang Saya</h2>
+            <p>Jelaskan secara singkat latar belakang dan tujuan karir Anda.</p>
+        </section>
+
+        <section id="pengalaman" class="fade-in">
+            <h2>Riwayat Pengalaman</h2>
+            <div class="card">
+                <h3>[Nama Perusahaan] - [Posisi]</h3>
+                <p>Tahun [Mulai] - [Selesai]</p>
+                <ul>
+                    <li>Tanggung jawab utama 1.</li>
+                    <li>Tanggung jawab utama 2.</li>
+                </ul>
+            </div>
+            </section>
+
+        <section id="keahlian" class="fade-in">
+            <h2>Keahlian Teknis</h2>
+            <ul id="skillList">
+                <li data-skill="HTML">HTML</li>
+                <li data-skill="CSS">CSS</li>
+                <li data-skill="JavaScript">JavaScript</li>
+                </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nama Anda. Dibangun dengan HTML, CSS, & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script> 
+</body>
+</html>
